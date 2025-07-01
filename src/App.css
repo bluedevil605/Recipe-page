@@ -1,0 +1,154 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+.page {
+  width: 100%;
+  height: 110vh;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: hsl(0, 0%, 100%);
+  width: 400px;
+  height: 1100px;
+  border-radius: 10px;
+  display: block;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+}
+.omeelete{
+  display: block;
+  width: 100%;
+  height: 196px;
+}
+.omeelete img{
+  width: 100%;
+  height: 196px;
+  border-radius: 10px;
+}
+.Recipe h1{
+  font-family: 'Young Serif', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  height: 20px;
+}
+.Recipe p{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 9px;
+  color: hsl(30, 10%, 34%);
+}
+.Prep-Time{
+  text-align: left;
+  font-family: 'Outfit', sans-serif;
+  width: 100%;
+  margin-top: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(330, 100%, 98%);
+  color: hsl(30, 10%, 34%);
+}
+
+.Prep-Time ul {
+  padding-inline-start: 40px;
+  margin-block-start: 0px;
+}
+.Prep-Time  h3{
+  margin-left: 21px;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  font-size: 14px;
+}
+
+.Prep-Time ul li{
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 10px;
+}
+.Ingredients h2{
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  font-size: 18px;
+  height: 15px;
+}
+.Ingredients ul{
+  padding-inline-start: 20px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-bottom: 5px;
+}
+.Ingredients ul li{
+  font-family: 'Outfit', sans-serif;
+  color:  hsl(30, 10%, 34%);
+  font-size: 12px;
+  padding-top: 5px;
+  font-weight: 400;
+}
+hr{
+  background-color: hsl(30, 10%, 34%);
+  opacity: 0.2;
+  margin-top: 20px;
+}
+.Instructions h2{
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  font-size: 18px;
+  height: 15px;
+}
+.Instructions ol{
+  padding-inline-start: 15px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-top: 5px;
+}
+.Instructions ol li{
+  font-family: 'Outfit', sans-serif;
+  color:  hsl(30, 10%, 34%);
+  font-size: 12px;
+  padding-top: 5px;
+  font-weight: 400;
+  padding-left: 5px;
+}
+.Instructions ol li::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+.Nutrition p{
+  font-family: 'Outfit', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color:hsl(30, 10%, 34%);
+}
+.Nutrition h2{
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  font-size: 18px;
+  height: 20px;
+
+}
+.Nutrition table{
+  width: 100%;
+  font-family: 'Outfit',sans-serif;
+  border-collapse: collapse;
+}
+.Nutrition table td{
+  padding: 0.5rem 0px ;
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+.Nutrition table tr:last-child td{
+  border-bottom: none;
+}
+.Nutrition .amount{
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.Nutrition .ct{
+  color: hsl(30, 10%, 34%);
+}
